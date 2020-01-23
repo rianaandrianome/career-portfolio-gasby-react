@@ -11,7 +11,10 @@ Then the React Components where added, modified and styled to fit the scope of t
 ### Installation
 
 ## Prerequisites
-Before installation, be sure to have: gatsby CLI, node and npm installed on your local machine. 
+Before installation, be sure to have the following installed on your machine: 
+* gatsby CLI 
+* node 
+* npm 
 
 ## Including your data
 Choose a method to include your data in the app: 
@@ -19,7 +22,7 @@ Choose a method to include your data in the app:
 - importing data from a CMS: add the corresponding plugin in your gatsby-config.js file 
 
 ## Installation, building and serving the app
-Then to proceed to the installation locally, clone the repo and run the following command in the terminal: 
+To proceed to the installation, clone the repo and run the following command in your terminal: 
 
 ```
 gatsby develop
