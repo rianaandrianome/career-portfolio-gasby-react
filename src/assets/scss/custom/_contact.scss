@@ -1,0 +1,11 @@
+#contact{
+    .inner{
+        .split{
+            .contact-method{
+                @include breakpoint(medium){
+                    padding: unset;
+                }
+            }
+        }
+    }
+}

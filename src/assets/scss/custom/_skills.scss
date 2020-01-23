@@ -1,0 +1,66 @@
+#section-skills{
+    .inner{
+        .icon-and-text-wrapper {
+           
+            .icon-and-text {
+                text-align: center;
+                a {
+                    border: none;
+                    transition: unset;
+                    .icon {
+                        font-size: 100px;
+                        color: _palette(icon-large);
+                    }
+                    h5 {
+                        font-weight: normal;
+                        font-size: 2em;
+                        color: _palette(icon-text);
+                    }
+                }
+                a:hover {
+                    cursor: pointer;
+                    p {
+                        color: _palette(fg);
+                    }
+                }
+                img {
+                    width: 70%;
+                    height: auto;
+                    @include breakpoint(medium) {
+                        width: 40%;
+                    }
+                }
+                span{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 15px;
+                    padding: 0 10px;
+                }
+                @include breakpoint(medium) {
+                    max-width:300px;
+                    margin: auto;
+                }
+            }
+        }
+        .progress-bar-wrapper{
+            .skill-cat{
+                @include breakpoint(medium) {
+                    max-width:300px;
+                    margin: auto;
+                }
+                .progress{
+                    margin: 10px;
+                    height: 15px;
+                    .progress-bar{
+                        background-color: grey;
+                        font-size: 14px;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}
+

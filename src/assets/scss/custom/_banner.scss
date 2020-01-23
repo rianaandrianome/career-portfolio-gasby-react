@@ -1,0 +1,39 @@
+#banner{
+    margin-bottom: -3.25em;
+    
+    .inner{
+        .content{
+            @include breakpoint(medium){
+                font-size: 20px;
+            }
+            .banner_right{
+                @include breakpoint(medium){
+                    max-width: 100%;
+                }
+            }
+            h1{
+                font-size: 2.2em;
+            }
+            p{
+                font-size: 0.9em;
+                font-weight: 500;
+                line-height: 1.2em;
+                text-transform: unset;
+                letter-spacing: unset;
+            }
+            .banner_left{
+                .rounded-circle{
+                    height: 170px;
+                }
+                @include breakpoint(medium){
+                    max-width: 100%;
+                }
+                
+            }
+
+        }
+    }
+    &:after{
+        opacity: 0.6;
+    }
+}
