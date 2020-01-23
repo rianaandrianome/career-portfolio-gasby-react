@@ -15,7 +15,7 @@ Before installation, be sure to have: gatsby CLI, node and npm installed on your
 
 ## Including your data
 Choose a method to include your data in the app: 
-- using a json file : Create a Json file to store a data in the "src/data" folder.
+- using a json file : Create a JSON file to store your data in the "src/data" folder.
 - importing data from a CMS: add the corresponding plugin in your gatsby-config.js file 
 
 ## Installation, building and serving the app
@@ -32,7 +32,6 @@ To build and serve locally, run the following command on your terminal:
 ```
 gatsby build
 ```
-
 
 ```
 gatsby serve
